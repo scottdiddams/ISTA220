@@ -1,0 +1,13 @@
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.csprojAssemblyReference.cache
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.AssemblyInfoInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.AssemblyInfo.cs
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.exe
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.deps.json
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.runtimeconfig.json
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.runtimeconfig.dev.json
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.dll
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\bin\Debug\netcoreapp3.1\C3Quiz02.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.dll
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\C3Quiz02\C3Quiz02\obj\Debug\netcoreapp3.1\C3Quiz02.genruntimeconfig.cache
