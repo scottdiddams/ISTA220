@@ -1,0 +1,101 @@
+##C# CH3 HW
+
+1. What is a method?
+
+*a named sequence of statements with a name and a body, which contains the statements to be run when the method is called
+A named block of code, that optionally accepts input and gives output consiting of a type, name, parameters, body*
+
+2. (Not in book) What is the difference between a function and a procedure/subprocedure/subroutine?
+
+*a function must return a value, a procudeure can return a null. A procedure is usually stored as a control to be called under certain circumstances when a desired task is needed*
+
+3. What does a return statement do?
+
+*returns information (if not void) and causes the method to finish and give control back to the statement that called the method. it consists of a return statement followed by an expression that specifies the returned value
+
+4. What is an expression bodied method?
+
+*a simplified form for methods that comprise a single expression, uses the => operator instead of {}:*
+```
+int addValues(int leftHandSide, int rightHandSide) => leftHandSide + rightHandSide;
+```
+
+5. What is the scope of a variable?
+
+*When a variable can be accessed at a particular location in a program, the variable is said to be in scope at that location - the region of the program in which a variable is usable. Local scope for a method or class are defined by {}*
+
+6. What is a field?
+
+*a variable defined by a class, but not a method - fields can be used to share info between methods;
+Variable - named location in memory that can optionally contain a value*
+
+7. What is an overloaded method?
+
+*A method with two identifiers with the same name, declared in the same scope*
+
+8. How do you call a method that requires arguments?
+
+```
+object.method(arguments) //Arguement = real value; parameter = names listed in the functions definition, initialized to the values of the arguements supplied
+```
+
+9. How do you write a method, that is, specify the method definition, that requires a parameter list?
+
+```
+publicPrivateVoidEtcType methodName(type madatoryParameter, type optionalParameter="default value")
+	{
+	...
+	}
+```
+
+10. How do you specify a parameter as optional when defining a method?
+
+*give it a default value*
+
+11. How do you pass a argument to a method as a named parameter?
+
+*specify it in the () following the method declaration*
+
+12. How do you return values from a method? Can you return multiple values from a method, and if so,
+how?
+
+```
+return (value1, value2...)
+```
+
+13. What is a tuple? How do you define a method that returns multiple values? Give an example of a
+method that returns multiple values other than the example in the book.
+
+* A tuple is a small collection of values - a mthod returns a tuple when you specify a list of types as part of the method definition see above*
+
+14. Examine the method definition on page 83 of the book. Desk check the execution of this method.
+What do you discover? This is called recursion.
+1 l o n g f a c t o r i a l ( int dataValue )
+2 {
+3 i f ( dataValue == 1 )
+4 r e t u r n 1 ;
+5 e l s e
+6 r e t u r n dataValue * f a c t o r i a l ( dataValue = 1 ) ;
+7 }
+
+*a recursive method is one that calls itself*
+
+15. How does the compiler resolve an ambiguity between named arguments and optional parameters?
+
+*the compiler will call the version of an overloaded method that most closely matches the method call*
+
+16. The book states: “A key feature of C# and other languages designed for the .NET Framework is the
+ability to interoperate with applications and components written with other technologies.” What is
+the COM and how is the CLR dependent on the COM?
+
+*COM = Component Object Model - the principal technology behind many windows apps outside the .net framework*
+
+*CLR = Common Language Runtime - used by the .NET framework and heavily dependant on COM. C# supports optional parameters to help incorporate COM libraries*
+
+
+Notes:
+
+```
+object myVar = MethodOne(); //this calls the method
+vs
+object myVar2 = MethodOne; //this assigns the method to the variable myVar2 and does not call the method

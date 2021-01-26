@@ -1,0 +1,68 @@
+## C# Programming CH1 Homework
+
+1. What is a console app?
+
+*a program written to be executed by the console or command prompt application with a CLI instead of a GUI*
+
+2. List two differences between .NET Framework and .NET Core. Note that in this class, we will be
+writing C# applications in .NET Framework and ASP.NET applications in NET Core.
+
+*The .NET Core is used for portable applications that run on other operating systems, such as Linux, while .NET Framework applies only to Windows.
+The .NET Framework provides a wider range of features than the .NET Core. Core is new & open source.*
+
+3. What does Main() (the main method) do in a console application?
+
+*The Main method designates the entry point for the console program. The computer looks for main and will only run if it finds it.
+If there is no main method it is not executable.*
+
+4. Describe these three files: TextHello.sln, TextHello.csproj, and AssemblyInfo.cs.
+
+* The .sln file is the solution file, which is a single file created by Visual studio to organize projects.
+The .csproj file is the C# project file and is a subset of the solution file.
+The .cs file is the source file, which is displayed in visual studio when the application is first created.
+
+5. What is the purpose of a namespace?
+
+*The namespace reduces conflicts within a program by separating classes that may be called by the same name into containers.*
+
+6. Describe specifically what using statements do.
+
+*A using directive applies scope by automatically qualifying all objects within that specific namespace that may reference another.*
+
+7. What is the entry point for a console app? What is the entry point for a UWP app?
+
+*The Main method is the entry point for a console app, the App.xaml file is the entry point for a UWP app*
+
+8. What is an assembly?
+
+*An assembly is a file that contains classes which a program may reference and typically has a dynamic-link library suffix (.dll)
+the .NET framework class library is split into assemblies based on their function.*
+
+9. How many different versions of the WriteLine() method does the Console class contain?
+
+*The console class provides 19 different versions of the WriteLine method.*
+
+10. What is the relationship between an assembly and a namespace?
+
+*A Namespace will call on classes for particular functions. These classes are stored in assemblies*
+
+11. What is a graphical app?
+
+*A Graphical application is a program with a graphic user interface manifesting as virtual interactive objects instead of lines of text.*
+
+12. What does Build do?
+
+*Build compiles the C# code, creating an executable program.*
+
+13. (Not in book) What is bytecode? What is Microsoft CIL? Do you think that CIL is bytecode? Why
+or why not?
+
+*Bytecodes are compact numeric codes, constants, and references that form the instruction set for a software interpreter on a virtual machine.
+Microsoft Common Intermediate Language (CIL) is the instruction set for common language infrastructure runtime environment. 
+Both bytecode and CIL define a virtual machine or software interpreter. The CIL is represented by the dynamic link library files that pass the program to the runtime process.
+CIL provides interoperability within the .NET runtime for VB, C++, F# in addition to C#. CIL appears to be the equivalent of a Java or Python bytecode for the .NET framework.*
+
+
+14. What does Debug do?
+
+*The debug function in visual studio identifies and highlights errors or exceptions in the code of a program*

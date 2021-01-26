@@ -1,0 +1,91 @@
+## Chapter 2 C# Step by Step
+
+1.What is a local variable?
+
+*A local variable is a variable declared inside a block of code, usually belonging to a method.*
+
+2.What is a statement?
+
+*A statement is a command that performs an action - statements can be combined to create methods.
+Statements follow rules called syntax and when combined, statements produce semantics.
+All statements must be terminated with a semi-colon*
+
+3.What is an identifier?
+
+*Identifiers are the names that you use to identify the elements in your programs.
+Namespaces, classes, methods, and variables all must have identifiers.
+Identifiers must adhere to the following rules:*
+- *Only letter, digits, and underscore characters can be used.*
+- *The first character must be a letter or underscore*
+
+4.What is a keyword?
+
+*A keyword is an identifier reserved for the code's own use (there's 77 of them) and cannot be repurposed as identifiers (ie. "class" & "using")*
+
+5.What is a variable?
+
+#named location in memory that may contain a value.
+*A variable is a storage location that holds a value. It ought to be given a unique and unambiguous name that identifies it in context.
+For example, "cost" could be a variable to which you assign an item's cost.
+Take care to establish a standardized naming convention and use camelCase notation when working in teams.*
+
+6.How do you declare a variable? How do you assign a value to a variable? Can you have a variable that
+does not have a value? Can you declare and initialize a variable in a single statement?
+
+*Variables, and their type, are declared in a "declaration statement" such as:* 
+
+	int age;
+
+*where "age" is the variable assigned with the integer type.
+After the variable is declared, you may assign it a value using the assignment operator "=" this can be done in a single statement.*
+
+	float age = 42F; //"F" signifies a numeric literal definition to an otherwise non-numeric variable.
+	
+*C# will not allow you to use an unassigned variable - your program will not compile - this is called the definite variable rule.*
+
+
+7.What does Visual Studio do when you open a project (a .csproj file) without opening the solution (a
+.sln file)? Why might this be a problem?
+
+*If you open a .csproj file Visual Studio will automatically produce a new .sln file, which can cause you to potentially lose work*
+
+8.How are arithmetic operators and variable types related?
+
+*Not all operators apply to all data types. Arithmetic operators only apply to types char, int, long, float, double, or decimal.*
+
+9.How do you turn an integer into a string?
+
+*To convert an int to a string call the ToString method:*
+	int intVar = 42;
+	string stringVar = intVar.ToString();
+
+10.How do you turn a string into an integer?
+
+*To convert a string to an int you call the "system.Int32.Parse" method:*
+	string stringVar = "42";
+	int inVar = System.Int32.Parse(stringVar);
+
+11.What is the difference between precedence and associativity? Give an example where this makes a
+difference.
+
+*Precedence governs the order in which an expressions operators are evaluated.
+In C# Multiplicatives (*, /, and %) have precedence over additives (+ & -).
+Associativity is the direction in which operands are evaluated.
+When C# is asked to evaluate two operands of equal precedence (4/2*6), associativity determines the outcome.*
+
+12.What is the definite assignment rule?
+
+*In c# the definite assignment rule requires all variables to be assigned a value before compiling.*
+
+13.How are the prefix and postfix increment and decrement operators evaluated differently?
+
+*Whether you use the prefix or postfix form of the increment or decrement operator makes no difference, with the exception of the application of enumeration.*
+
+14.What is string interpolation?
+
+*String interpolation is a relatively new feature in C# which renders the use of + for string concatenation irrelevent.
+Using the $ symbol at the beginning of a string, in conjunction with {} to encompass expressions, relieves the programmer of the need for a +. Interpolation directs the computer to evaluate the expression in the string for you* 
+
+15.What does the var keyword do?
+
+*var assigns an implicit type to a local variable - allowing that variable to ultimately be assigned multiple different types.*

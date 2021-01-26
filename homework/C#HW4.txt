@@ -1,0 +1,81 @@
+## C# HW Ch4
+
+1. What are all possible values of Boolean expression?
+
+*true or false*
+
+2. List the equality operators. List the relational operators. List the logical operators. How are they the
+same? How are they different?
+
+*Equality operators: == (Equal to) and != (not equal to)*
+
+*relational operators: < (less than); > (greater than) <= & >= (less/greater than or equal to)*
+
+*logical operators: && (logical AND); || (logical OR); ! (Logical Not)*
+
+
+3. What is the general concept of short circuiting? This question has a short and simple answer and you
+do not need to have a detailed response.
+
+*if the value to the left of the &&/|| operator fulfills the condition of the expression, the operators bypass the value to the right*
+
+4. What are the difference in how short circuiting works for && and ||?
+
+*FALSE&&=short circuit*
+
+*TRUE||= short circuit*
+
+5. Look at the list of operators. What operator has the highest precedence? Which has the lowest?
+
+*highest:() ; lowest: = "assignment"*
+
+6. In an if or else construction using multiple lines of code, what effect does the use of curly braces have?
+
+*braces create a BLOCK, which allows you to perform multiple statements as a result of the boolean evaluation*
+
+7. In a switch statement, what happens if you omit break?
+
+*the C# compiler ends the switch function when it evaluates the break statement, if there is no break statement the switch will"fall through" to the next case or end up in a stack overflow exception*
+
+8. The four keywords in a switch statement are switch, case, break, and default. Explain what each
+keyword does.
+
+*switch (match) = the selection statement that chooses a single switch section to execute from a list of candidates based on a pattern match with the match expression*
+
+*case = a specified pattern to compare the match expression against*
+
+*break = ends the process*
+
+*default = the case to pick if none of the other case labels match the specified condition*
+
+
+9. Look at the source listing below. It contains two methods: recurr1() and recurr2(). There is a
+significant difference between the two methods. What is it?
+
+*recurr2 has an extra step where it mmultiplies initial by 1 before beginning the recursion - if product is anything other than 1 the method will not demonstrate recursion*
+
+10. (Not in book) What is a recursive method? Using a language you know (such as English), write a
+recursive method that adds up the integers in a list of integers. The input to the method is a list of
+integers and the output is a scalar value representing a sum.
+
+*a recursive method is one that calls itself during its execution*
+
+*f(x) = x + f(x-1)*
+
+11. (Not in book) Read a short summary of De Morgan’s laws.
+
+
+
+(a) Explain how this statement, ”It’s not snowing or raining,” is the same as this statement, ”It’s not
+snowing and it’s not raining.”
+
+*both statements can be evaluated as ((nosnow||norain)=true)=(snow&&rain=false)*
+
+(b) Explain how this statement, ”I’m not running and walking,” is the same as this statement, ”I’m
+not running or I’m not walking.”
+
+*(run&&walk=false) is the same as ((Not running||not walking)=true)*
+
+-HW4 + 2 labs [complete]
+- quiz2
+- programming ex
