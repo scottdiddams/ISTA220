@@ -1,0 +1,13 @@
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.exe
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.deps.json
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.runtimeconfig.json
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.runtimeconfig.dev.json
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.dll
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\bin\Debug\netcoreapp3.1\RecursionLab.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.csprojAssemblyReference.cache
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.AssemblyInfoInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.AssemblyInfo.cs
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.dll
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\Labs\RecursionLab\RecursionLab\obj\Debug\netcoreapp3.1\RecursionLab.genruntimeconfig.cache
