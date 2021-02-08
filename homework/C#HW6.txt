@@ -1,0 +1,47 @@
+##C# HW CH06
+
+
+1. What is an exception?
+
+*C# uses exceptions to signal that an error has occurred*
+
+2. What happens in a try block if the program executes without errors?
+
+*if statements in a try block do not generate exceptions, the program will run as ordered*
+
+3. How does the catch mechanism work for unhandled exceptions?
+
+*Catch handlers are designed to capture and handle a specific type of exception - you can have multiple catch handlers after a try block - if a handler is not programmed to catch a certain exception, the executing method will exit and return to the calling method, if the calling method is the source of the try block, the runtime will attempt to locate a matching catch handler until it finds one.*
+
+4. What happens in a program if an exception block fails to handle an particular error?
+
+*If there is no appropriate catch handler, the program will terminate*
+
+5. What is the parent class for all exceptions? How does this work?
+
+*the Exception class is the base class for all exceptions - the exception class includes a number of properties that help identify the code location, type, help file, and reason for the exception*
+
+6. How do you determine the type of an error?
+
+*the exception class will determine and communicate the type and reason for the error*
+
+7. What is the purpose of integer checking?
+
+*The C# compiler will, by default, allow an integer calculation to result in an overflow - where the result of the calculation exceeds the limits of the int type - resulting in an innacurate solution. Integer checking will throw an exception when it detects an overflow, instead of outputting an incorrect solution.*
+
+8. What is the range of values than a signed Int32 type can contain? State the lowest value and the
+highest value.
+
+*-2147483648 to 2147483647 or 00000000 00000000 00000000 0000000 to 11111111 11111111 11111111 1111111 (4 bytes) 2^31*
+
+9. What is the range of values than an unsigned Int32 type can contain? State the lowest value and the highest value. What is the difference between a signed integer and an unsigned integer? Can signed integers and unsigned integers represent the same amount of numbers?
+
+*0 to 4294967295 or 2^32*
+
+10. What does the finally block do?
+
+*If an exception is thrown, some code expected to be executed gets bypassed, leaving resources, like files, open. A finally block will always be executed and can be used to conduct resource cleanup, like closing a file.*
+
+11. (Thought question) When would you not use a finally block in a try/catch construction?
+
+*code in a finally block is garunteed to run - if you do not want to do that avoid using it*
