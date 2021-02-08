@@ -1,0 +1,13 @@
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.csprojAssemblyReference.cache
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.AssemblyInfoInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.AssemblyInfo.cs
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.exe
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.deps.json
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.runtimeconfig.json
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.runtimeconfig.dev.json
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.dll
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\bin\Debug\netcoreapp3.1\MainMenu.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.dll
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.pdb
+C:\Users\ASUS\MSSA2021\ISTA220\MainMenu\MainMenu\obj\Debug\netcoreapp3.1\MainMenu.genruntimeconfig.cache

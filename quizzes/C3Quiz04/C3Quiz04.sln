@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3Quiz04", "C3Quiz04\C3Quiz04.csproj", "{A56F5C9C-8939-4A8D-9608-ABA33466CBCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56F5C9C-8939-4A8D-9608-ABA33466CBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56F5C9C-8939-4A8D-9608-ABA33466CBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56F5C9C-8939-4A8D-9608-ABA33466CBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56F5C9C-8939-4A8D-9608-ABA33466CBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89639813-204C-484A-B140-211B0E38F14F}
+	EndGlobalSection
+EndGlobal

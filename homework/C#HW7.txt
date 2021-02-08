@@ -1,0 +1,109 @@
+## C# HW07
+
+1. What is a class? According to the book, what does a class “arrange?”
+
+*a class is a 'classification' - it systematically arranges information and behavior into a meaningful entity*
+
+2. What are the two purposes of encapsulatiohn?
+
+*1 - to combine methods and data within a class - to support classification.*
+*2 - To control the accessibility of the methods and data - to control the use of the class*
+
+3. How do you instantiate an instance of a class? How do you access that instance?
+
+*use the class keyword to create a class, then instantiate it by creating a "new" object within it - call the instance by declaring it*
+```
+//line class:
+Line line = new line();
+line.setLength(6);
+```
+
+4. What is the default access of the fields and methods of a class? How do you change the default?
+
+*The default is private, change it by using the public keyword*
+
+5. What is the syntax for writing a constructor?
+
+*a constructor is a special method that runs automatically when you create an instance of a class. It takes parameters, but does not return anything - create a constructor by writing a public method with the same name as the class that doesn't return a value*
+```
+class Circle
+{
+    private int radius;
+    public Circle() // default constructor
+    {
+        radius = 0;
+    }
+
+    public double Area()
+    {
+        return Math.PI * radius * radius;
+    }
+}
+```
+
+6. What is the difference between class fields and methods, and instance fields ad methods? How do you
+create class fields and methods?
+
+*An instance field cannot be static, it must return something, a class field does not have to return anything -an instance method uses an instance of a class, whereas a class method can be used with just the class name - create class field with the static keyword - ie bathroom sink is a static class field, tothbrush is an instance field - one is shared, the other is not*
+
+7. How do you bring a static class in scope? Why would you want to bring a static class in scope?
+
+*define it within the desired field - perhaps to apply the static framework to an application*
+
+8. Can you think of a good reason to create an anonymous class? What is it?
+
+*anonymous classes have no name and are created using the "new" keyword - most likely useful when you need to use a local class only once, such as a query*
+
+9. What is polymorphism as this term is used in computer science? This is not in the book.
+
+*The concept of accessing objects of different types through the same interface - ie the same building blocks to create different applications*
+
+10. What is message passing as this term is used in computer science? This is not in the book.
+
+*message passing refers to the technique by which a program sends data to a process to invoke some applicable code*
+
+11. What was the first object-oriented programming language?
+
+*simula, created in 1967 - used for making simulation programs*
+
+12. Consider this quote by Alexander Stepanov:
+
+I find OOP technically unsound. It attempts to decompose the world in terms of interfaces
+that vary on a single type. To deal with the real problems you need multisorted algebras
+— families of interfaces that span multiple types. I find OOP philosophically unsound. It
+claims that everything is an object. Even if it is true it is not very interesting — saying that
+everything is an object is saying nothing at all.
+Who is Alexander Stephanov? What do you think about this quote?
+
+*Alexander Stepanov is a computer programmer known for his advocacy of "generic programming" and 'standard template library' or STL*
+
+*underdstandably, an experienced and knowlegable programmer might find OOP limiting due to the syntax designed to assist programmers in the development of generic applications and not experimentation*
+
+
+*The key to OOP is that classes are types and types are classes*
+
+*a type is a unique way of managing the 1s and 0s in the computer*
+
+*int, bool, double etc... are built in types - when the user defines a type, its called a class*
+
+*stack vs heap*
+
+	- Stack - organizaed memory {...}, working memory (static)
+	
+	- Heap - unorganized memory (dynamic)
+	
+	- the new keyword initializes an object by allocating memory on the heap based on the type
+	
+```
+//class field (built in)
+Math.PI
+//class method
+Math.Sqrt()
+//another class method
+Console.WriteLine
+
+Duck donald = new Duck();
+//instance field (user defined)
+donald.sound = "quack"
+//instance method
+donald.walk(); //produces a waddle

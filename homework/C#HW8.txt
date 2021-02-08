@@ -1,0 +1,74 @@
+## HW08
+
+1. What is the difference between deep copy and shallow copy?
+
+*A deep copy creates a new field and then copies the fields of the current object to the newly created object to make a complete copy of the internal reference types.*
+*A shallow copy creates a new object and then copies the value type fields from current to new object - references are copied, but the refferred objects are not*
+
+2. What is the value of a reference after you declare and initialize it?
+
+*the reference becomes an object and gets the value assigned to it when initialized*
+
+3. How do you declare a value type?
+
+*declare a value type using the reserved keyword, such as 'decimal' in Decimal(int32)*
+
+4. How do you declare a reference type?
+
+*declare reference types using built in keywords, such as class, interface, delegate, and record*
+
+5. Does C# allow you to assign NULL to a value type?
+
+*C# allows you to create a nullable value type to extend a value type to take a null value, or assign a "null" value*
+
+6. Can you assign a nullable value type to a non-nullable variable of the same type? Why or why not?
+
+*Yes, a value type is implicityle convertible to the corresponding nullable value type*
+
+7. What is the difference between the stack and the heap?
+
+*stack vs heap*
+
+	- Stack - organizaed memory {...}, working memory (static)
+	
+	- Heap - unorganized memory (dynamic) - available to a program at runtime
+	
+	- the new keyword initializes an object by allocating memory on the heap based on the type
+
+8. What does it mean when we say that all classes are specialized types?
+
+*A class and a type are categorically identicle, a class is a specific, templated type - pre-built for a specified purpose*
+
+9. What does ref do?
+
+*the ref keyword indicates a value that is passed by reference - use the ref keyword in the method definition and the calling method*
+
+10. What does out do?
+
+*the out keyword causes arguments to be passed by the reference - any operation on the parameter is made on the arguement - use in the method definition and the calling method*
+```
+int initializeInMethod;
+OutArgExample(out initializeInMethod);
+Console.WriteLine(initializeInMethod);     // value is now 44
+
+void OutArgExample(out int number)
+{
+    number = 44;
+}
+```
+
+11. Describe boxing and unboxing in your own words.
+
+*boxing - conversion of a value type to a reference type (heap)*
+
+*unboxing - converting a reference type to a value type (stack)*
+
+```
+int i = 100;
+
+obj = i //Boxing
+i = (int) obj; //unboxing
+
+12. What does cast do?
+
+* use a cast to specify that data referenced by an object has a specific type and that it is safe to reference the object by using that type, use the 'is' operator to verify the object type is what you think*
